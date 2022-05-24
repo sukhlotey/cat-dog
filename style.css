@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/bg-one.jpg") center center / cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0%;
+}
+
+.both {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen {
+    border: 1px solid rgb(236, 98, 197);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.screen img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(223, 168, 209);
+    border: 0;
+    border-radius: 4px;
+    color: #000;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(204, 101, 188);
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 2px black;
+}
